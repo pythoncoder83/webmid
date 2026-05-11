@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+button {
+    border-image: url("res/button.png") 3 fill stretch;
+    border-width: 3px;
+    border-image-width: 6px;
+    image-rendering: pixelated;
+    color: white;
+    height: 32px;
+}
