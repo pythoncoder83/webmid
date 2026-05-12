@@ -25,6 +25,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Setup Emscripten
+        uses: mymindstorm/setup-emsdk@v14
+
       - name: Compile TSF
         run: make
 
